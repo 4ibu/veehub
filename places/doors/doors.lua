@@ -416,7 +416,7 @@ type tGroupTrack = {
 }
 
 --// Library \\--
-local repo = "https://raw.githubusercontent.com/mstudio45/LinoriaLib/refs/heads/main/"
+local repo = "https://raw.githubusercontent.com/4ibu/LinoriaLib/refs/heads/main/"
 
 local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
@@ -427,7 +427,7 @@ local Toggles = getgenv().Linoria.Toggles
 local ESPLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/mstudio45/MS-ESP/refs/heads/main/source.lua"))()
 
 local Window = Library:CreateWindow({
-    Title = "mspaint v2 | DOORS",
+    Title = "VeeHub | DOORS",
     Center = true,
     AutoShow = true,
     Resizable = true,
@@ -442,6 +442,7 @@ local Tabs = {
     Exploits = Window:AddTab("Exploits"),
     Visuals = Window:AddTab("Visuals"),
     Floor = Window:AddTab("Floor"),
+    Misc = Window:AddTab("Misc"),
     ["UI Settings"] = Window:AddTab("UI Settings"),
 }
 
