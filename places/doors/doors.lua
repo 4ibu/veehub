@@ -558,10 +558,10 @@ function Script.Functions.UpdateRPC()
     end
 
     BloxstrapRPC.SetRichPresence({
-        details = "Playing DOORS [ mspaint v2 ]",
+        details = "Playing DOORS [ VeeHub ]",
         state = roomNumberPrefix .. prettifiedRoomNumber .. " (" .. if PrettyFloorName[floor.Value] then PrettyFloorName[floor.Value] else ("The " .. floor.Value)  .. ")",
         largeImage = {
-            hoverText = "Using mspaint v2"
+            hoverText = "Using VeeHub"
         },
         smallImage = {
             assetId = 6925817108,
