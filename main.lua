@@ -1,7 +1,7 @@
 local branch = getgenv().mspaint_dev_mode and "dev" or "main"
 
 local HttpService = game:GetService("HttpService")
-local baseURL = "https://raw.githubusercontent.com/4ibu/mspaint/" .. branch
+local baseURL = "https://lol.veehub.xyz/" .. branch
 
 export type gameMapping = {
     exclusions: table?,
